@@ -1,4 +1,33 @@
 # Mythic Plus Module for AzerothCore
+📣 **long overdue update**: This has been a passion project and relaxing output of my time. I was laid off, had to get surgery, then get a real job again at a high demand start-up that has uses up all my programming energy. 
+
+I also took a pause on this to build out some new action based mechanics for encounters, really early days on that and experimental.
+
+I expect to come back to working on this project in a few months when as I am really getting the itch to revisit and **finish this**.
+
+So what does that mean?
+
+**Do the boring stuff**:
+1. upgrade everything to latest version of npc bots and patch any problems.
+2. start a fresh version not modified version and install as well as script a custom installer for the sql needs.
+3. Write thorough docs on how to install this.
+
+**Finish the content:**
+1. Finish the remaining NPC trainers for new leveling tradeskills and make them more accessible.
+2. Retool the items one final time simplifying the sprawl that happened while I iterated on item creator.
+3. Add in the legendary and ascendant paths I always intended to complete
+
+That list seems short but it is not, low effort or small amount of time I assure you. 
+
+Once I have checked those off... I am going to call this done.  
+
+I will fix bugs and put into maintainer mode, so only upgrading from new patches down from acore trickerrer, as I can.
+
+👊 If you want to help me accomplish this to make it happen faster and have some programming skills or cash for AI credits to generate code, please DM me on discord, I am in all the WoW channels. 
+
+Look forward to completing this project and giving it to the rest of my nostalgic gamers out there.
+
+-- Volek
 
 🚨 **This is not mythic like in retail.** 🚨
 
@@ -304,6 +333,7 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) 
 ---
 
 *Remember: This module significantly increases dungeon difficulty. Start with lower difficulties and work your way up to avoid frustration. The enhanced challenge is designed to provide engaging content for experienced players seeking greater difficulty than the original game provided.*
+
 
 
 
