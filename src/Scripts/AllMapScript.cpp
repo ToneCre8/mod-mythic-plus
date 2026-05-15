@@ -14,12 +14,12 @@ public:
     {
     }
 
-    void OnCreateMap(Map* /*map*/) { }
+    void OnCreateMap(Map* /*map*/) override { }
 
     /**
      * When a player enters the map check it needs to set up the instance data
      */
-    void OnPlayerEnterAll(Map* map, Player* player)
+    void OnPlayerEnterAll(Map* map, Player* player) override
     {
         if (!sMythicPlus->IsMapEligible(map)) {
             return;
@@ -111,7 +111,7 @@ public:
     }
 
     // When an instance is destroyed remove the instance data from the data store
-    virtual void OnDestroyInstance(MapInstanced* /*mapInstanced*/, Map* map)
+    void OnDestroyInstance(MapInstanced* /*mapInstanced*/, Map* map) override
     {
         if (!sMythicPlus->IsMapEligible(map)) {
             return;
